@@ -24,7 +24,7 @@ public class SDKTestWebView: WKWebView {
     
     @discardableResult
     public func load() -> WKNavigation? {
-        if let url = URL(string: "http://example.com") {
+        if let url = URL(string: "https://www.google.com/") {
             let req = URLRequest(url: url)
             return super.load(req)
         }
